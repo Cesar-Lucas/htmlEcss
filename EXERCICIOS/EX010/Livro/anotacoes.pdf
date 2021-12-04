@@ -1,0 +1,49 @@
+<hr> == linha horizontal
+<br> == quebra de linha
+! no inicio do codigo e depois enter == criar o codigo base de um HTML
+&lt; == aparecer no navegador o simbolo "<"
+&gt; == aparecer no texto o simbolo ">"
+<!--  --> == comentar o codigo em html
+&#x + codigo que pegar na emoji pedia colocar valores hexadecimais no codigo para adicionar emoji e etc
+
+ctrl + espaço == dica de termino de linha
+
+se a imagem está no mesma pasta ou sub basta na tag "img" em src dentro das aspas, é só apertar "ctrl + espaço" que o vs code vai 
+lhe mostrar os arquivos que podem ser exportados
+
+para colocar um favicon no seu site, basta ter um arquivo .ico e no head digitar "link" e apertar "ctrl + espaço" e selecionar 
+favicon e dentro de href "" mesma coisa de colocar uma imagens
+
+
+Estamos criando um <big>texto grande</big>(a tag big esta obsoleta, use CSS para deixar letras grandes) e 
+outro <small>pequeno</small>(letra pequena continua em uso, mas deve ser usada com significado, se quer deixar a letra menor use CSS) dentro deste paragrafo.
+
+aula 8 importante para formatação de texto
+
+
+a tag "ol" serve para criar listas ordenadas, mas dentro da tag "ol" tem que colocar a tag "li" para cada item da lista
+<ol>
+        <li>acordar</li>
+        <li>tomar café</li>
+        <li>Jogar LoL</li>
+</ol>
+
+a tag "ul" serve para criar listas não ordenadas, mas dentro da tag "ul" tem que colocar a tag "li" para cada item da lista
+<ul>
+        <li>comer</li>
+        <li>dançar</li>
+        <li>dormir</li>
+</ul>
+
+em ambas as listas você pode colocar o tipo de lista (marcação, numero, letra, colinha e etc) <ol type = ""> e o inicio dela (sua lista começa no 10)
+<ol type = "1" star = "10">
+
+
+
+
+
+
+<a href="https://www.ligapokemon.com.br/?view=home" target="_blank" rel="external">liga pokemon</a> serve para fazer o seu texto virar um link, o 'target="_blank"'
+serve para abrir uma nova guia para o site que você mandou
+
+

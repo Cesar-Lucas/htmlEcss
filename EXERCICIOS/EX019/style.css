@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* 
+ em HTML é id = em CSS é #
+ em HTML é class = em CSS é .
+
+ id só pode em uma referencia
+ class em multiplas referencias
+*/
+
+
+body{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: crimson;
+}
+
+h1#principal{
+    text-align: center;
+}
+
+h2{
+    color: darkred;
+}
+
+.basico{
+    color: green;
+    font-weight: bold;
+}
+
+.intermediario{
+    color: yellow;
+}
+
+.avancado{
+    color: rgb(255, 0, 212);
+}
+
+.destaque{
+    background-color: cornsilk;
+}

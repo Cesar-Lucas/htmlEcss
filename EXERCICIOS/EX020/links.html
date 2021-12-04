@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        a{
+            color:  red;
+            text-decoration: none;
+        }
+        a:non-visited{
+            color: blue;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        a::after{
+            content: '[link]';
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22" target="_blank" >video youtube</a></li>
+        <li><a href="https://www.probuilds.net/guide/show/kr/5595780040/G2R9fGPFFze0u0MDGOOUzl7hpYuKitSMvx-bYk3-36xYSdk" target="_blank">build ez</a></li>
+        <li><a href="https://www.probuilds.net/guide/show/euw1/5575768023/zhO5Q8BWrn85P-_pMzNPaYLEMyZ--3IM619WbIpoRquUtRU" target="_blank">Build gnar</a></li>
+
+    </ul>
+</body>
+</html>
